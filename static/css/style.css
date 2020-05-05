@@ -1,0 +1,18 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-card {
+    width: 20em;
+    height: 14em;
+}

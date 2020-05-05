@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+        <div class="center">
+            <div class="card login-card">
+                <div class="card-body">
+                    <h5 class="card-title">Login</h5>
+                    <form action="{{ url_for('loginattempt') }}" method="POST">
+                        <div class="form-group">
+                            <label for="passwordInput">Password</label>
+                            <input name="password" type="password" class="form-control" id="passwordInput">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

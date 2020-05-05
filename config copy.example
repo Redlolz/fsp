@@ -1,0 +1,6 @@
+{
+    "webhost":"0.0.0.0",
+    "webport":8080,
+    "password":"1234",
+    "path":"/home/user/Documents"
+}
